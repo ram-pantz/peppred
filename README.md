@@ -18,6 +18,5 @@ This engine requires the use of multiple conda environments as well as a set up 
 3. The output can be found in a folder named `XYZ` where XYZ is the target name. See example in `7P4B/` where `outfile_7P4B_model_1_model_2_ptm_ft.pdb` is the final structure model.
 
 #STEP 2: PAIR GENERATION IN THE COMPARE FOLDER #
-1. Ensure all conda environments are installed
-2. Run Compare/dscore.sh
+1. Run Compare/dscore.sh
 
