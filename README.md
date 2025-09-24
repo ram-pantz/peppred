@@ -4,7 +4,7 @@
 ## SETUP ##
 This engine requires the use of multiple conda environments as well as a set up script to be fully operational
 
-1. Create the 3 environments from the yml files below. Other required dependencies / prerequisites include Rorsetta and "Tensorrt"
+1. Create the 3 environments from the yml files in the main directory. Other required dependencies / prerequisites include Rorsetta and "Tensorrt"
 
 2. After creating the conda environments fill in the environment variables in setup.py and run
 
