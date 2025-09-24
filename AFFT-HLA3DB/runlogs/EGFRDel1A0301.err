@@ -1,0 +1,12 @@
+
+ArgumentError: activate does not accept more than one argument:
+['EGFRDel1A0301', 'params/7WKJ_af_mhc_params_2351.pkl']
+
+
+2025-08-24 18:42:39.447355: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-24 18:42:39.576328: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Traceback (most recent call last):
+  File "/mnt/isilon/sgourakis_lab_storage/personal/ram/AFFT-HLA3DB/run_prediction.py", line 126, in <module>
+    assert row.target_len == len(query_sequence)
+AssertionError

@@ -3,10 +3,12 @@
 
 ## SETUP ##
 This engine requires the use of multiple conda environments as well as a set up script to be fully operational
-Create the 3 environments from the yml files below
-Other required dependencies / prerequisites include Rorsetta and "Tensorrt"
 
-After creating the conda environments fill in the environment variables in setup.py and run
+1. Create the 3 environments from the yml files below. Other required dependencies / prerequisites include Rorsetta and "Tensorrt"
+
+2. After creating the conda environments fill in the environment variables in setup.py and run
+
+3. Download params file from https://onedrive.live.com/?id=ED57FA73D19DB823%2112884&resid=ED57FA73D19DB823%2112884&e=BPt1QX&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaU80bmRGei1sZnQ1RlR6MVNLRmdmSS1mNEN4P2U9QlB0MVFY&cid=ed57fa73d19db823&v=validatepermission and populate it in the params folder in AFFT-HLA3DB
 
 ## USAGE ##
 

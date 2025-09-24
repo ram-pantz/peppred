@@ -1,0 +1,38 @@
+From Python: /home/pantular/miniconda3/bin/activate
+========== GENLIST START (Task 0) ==========
+PDBs OK=1, Fail=0. Output → tmp_fastas/genlist_chunk_0.fasta
+Wrote 1 rows → outputs/genlist/genlist_part00.csv
+[TWO] Task 0 wrote → outputs/genlist/genlist_part00.csv
+[TWO] Waiting for other tasks to finish...
+JobId=52969378 ArrayJobId=52969133 ArrayTaskId=0 JobName=genlist
+   UserId=pantular(1063634) GroupId=reslnusers(85000002) MCS_label=N/A
+   Priority=2285 Nice=0 Account=hpcusers QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:04 TimeLimit=04:00:00 TimeMin=N/A
+   SubmitTime=2025-09-23T19:23:39 EligibleTime=2025-09-23T19:26:29
+   AccrueTime=2025-09-23T19:26:29
+   StartTime=2025-09-23T19:27:39 EndTime=2025-09-23T23:27:39 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-09-23T19:27:39 Scheduler=Backfill
+   Partition=defq AllocNode:Sid=m-09-10:111053
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=m-09-10
+   BatchHost=m-09-10
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=3G,node=1,billing=1
+   AllocTRES=cpu=1,mem=3G,node=1,billing=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=3G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/isilon/sgourakis_lab_storage/personal/ram/FinalWrapper/Compare/two.sh
+   WorkDir=/mnt/isilon/sgourakis_lab_storage/personal/ram/FinalWrapper/Compare
+   StdErr=/mnt/isilon/sgourakis_lab_storage/personal/ram/FinalWrapper/Compare/logs/genlist_52969133_0.err
+   StdIn=/dev/null
+   StdOut=/mnt/isilon/sgourakis_lab_storage/personal/ram/FinalWrapper/Compare/logs/genlist_52969133_0.out
+   Power=
+   
+
+[TWO] Merging CSVs...
+✅ Created MHC_pdbs/MHCs.csv
+========== GENLIST END (Task 0) ==========

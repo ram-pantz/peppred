@@ -1,0 +1,11 @@
+========== COMP PIPELINE START ==========
+From Python: /home/pantular/miniconda3/bin/activate
+[THREE] Running anchor_class...
+[THREE] anchor_class done.
+[THREE] Running dihedrals...
+[THREE] dihedrals done.
+[THREE] Running pairings...
+[THREE] pairings done.
+[THREE] Finding pairs
+[THREE] pairing completed
+========== COMP PIPELINE END ==========

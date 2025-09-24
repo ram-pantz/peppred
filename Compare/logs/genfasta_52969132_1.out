@@ -1,0 +1,3 @@
+From Python: /home/pantular/miniconda3/bin/activate
+[ONE] Task 1 processing chunks/pdb_chunk_01
+PDBs OK=1, Fail=0. Output → outputs/genfasta/genfasta_part01.fasta

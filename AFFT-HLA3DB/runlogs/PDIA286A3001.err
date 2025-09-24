@@ -1,0 +1,21 @@
+
+ArgumentError: activate does not accept more than one argument:
+['PDIA286A3001', 'params/7WKJ_af_mhc_params_2351.pkl']
+
+
+2025-08-15 00:10:32.363180: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-15 00:10:32.491621: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From /home/pantular/miniconda3/envs/alphafold/lib/python3.9/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+WARNING:tensorflow:From /home/pantular/miniconda3/envs/alphafold/lib/python3.9/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+2025-08-15 00:10:42.134544: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 2356 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-40GB, pci bus id: 0000:65:00.0, compute capability: 8.0
+/mnt/isilon/sgourakis_lab_storage/personal/ram/AFFT-HLA3DB/alphafold/model/mapping.py:49: FutureWarning: jax.tree_flatten is deprecated, and will be removed in a future release. Use jax.tree_util.tree_flatten instead.
+  values_tree_def = jax.tree_flatten(values)[1]
+/mnt/isilon/sgourakis_lab_storage/personal/ram/AFFT-HLA3DB/alphafold/model/mapping.py:53: FutureWarning: jax.tree_unflatten is deprecated, and will be removed in a future release. Use jax.tree_util.tree_unflatten instead.
+  return jax.tree_unflatten(values_tree_def, flat_axes)
+/mnt/isilon/sgourakis_lab_storage/personal/ram/AFFT-HLA3DB/alphafold/model/mapping.py:125: FutureWarning: jax.tree_flatten is deprecated, and will be removed in a future release. Use jax.tree_util.tree_flatten instead.
+  flat_sizes = jax.tree_flatten(in_sizes)[0]

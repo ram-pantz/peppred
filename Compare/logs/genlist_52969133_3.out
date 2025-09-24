@@ -1,0 +1,6 @@
+From Python: /home/pantular/miniconda3/bin/activate
+========== GENLIST START (Task 3) ==========
+PDBs OK=1, Fail=0. Output → tmp_fastas/genlist_chunk_3.fasta
+Wrote 1 rows → outputs/genlist/genlist_part03.csv
+[TWO] Task 3 wrote → outputs/genlist/genlist_part03.csv
+========== GENLIST END (Task 3) ==========

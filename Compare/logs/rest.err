@@ -1,0 +1,39 @@
+
+EnvironmentNameNotFound: Could not find conda environment: compare
+You can list all discoverable environments with `conda info --envs`.
+
+
+
+EnvironmentNameNotFound: Could not find conda environment: corrector
+You can list all discoverable environments with `conda info --envs`.
+
+
+/home/pantular/miniconda3/lib/python3.12/site-packages/sklearn/base.py:440: InconsistentVersionWarning: Trying to unpickle estimator DummyClassifier from version 1.7.1 when using version 1.7.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Traceback (most recent call last):
+  File "/mnt/isilon/sgourakis_lab_storage/personal/ram/FinalWrapper/Compare/compare.py", line 401, in <module>
+    main()
+  File "/mnt/isilon/sgourakis_lab_storage/personal/ram/FinalWrapper/Compare/compare.py", line 346, in main
+    model = joblib.load("model.pkl")
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pantular/miniconda3/lib/python3.12/site-packages/joblib/numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pantular/miniconda3/lib/python3.12/site-packages/joblib/numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+          ^^^^^^^^^^^^^^^^
+  File "/home/pantular/miniconda3/lib/python3.12/pickle.py", line 1205, in load
+    dispatch[key[0]](self)
+  File "/home/pantular/miniconda3/lib/python3.12/site-packages/joblib/numpy_pickle.py", line 415, in load_build
+    self.stack.append(array_wrapper.read(self))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pantular/miniconda3/lib/python3.12/site-packages/joblib/numpy_pickle.py", line 252, in read
+    array = self.read_array(unpickler)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pantular/miniconda3/lib/python3.12/site-packages/joblib/numpy_pickle.py", line 152, in read_array
+    array = pickle.load(unpickler.file_handle)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pantular/miniconda3/lib/python3.12/site-packages/numpy/random/_pickle.py", line 34, in __bit_generator_ctor
+    raise ValueError(str(bit_generator_name) + ' is not a known '
+ValueError: <class 'numpy.random._mt19937.MT19937'> is not a known BitGenerator module.
