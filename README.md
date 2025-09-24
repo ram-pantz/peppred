@@ -15,7 +15,7 @@ This engine requires the use of multiple conda environments as well as a set up 
 #STEP 1: STRUCTURE PREDICTION IN THE AFFT-HLA3DB FOLDER ##
 1. Populate the `input_seq` folder with the HLA and peptide sequence (on separate lines, see example in `input_seq/7P4B_seq.txt`). Make sure the file name is `XYZ_seq.txt` where XYZ is the target name.
 2. `bash predict_structure.sh` - will run based off of files in `input_seq`. This should take 3-5 minutes on a GPU if requesting 64 GB of memory. The script is currently set up to run on a slurm scheduler and may need to be modified for your setup.
-3. The output can be found in a folder named `XYZ` where XYZ is the target name. See example in `7P4B/` where `outfile_7P4B_model_1_model_2_ptm_ft.pdb` is the final structure model.
+3. Outputs will be saved as a pdb to a folder named for the input. These folders will be automatically moved to outfile when dscore.sh is run
 
 #STEP 2: PAIR GENERATION IN THE COMPARE FOLDER #
 1. Run Compare/dscore.sh
